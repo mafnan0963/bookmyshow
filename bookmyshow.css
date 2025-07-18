@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    font-family:sans-serif;
+}
+.navbar{
+    background-color: rgb(51, 53, 69);
+    display: flex;
+    height: 67px;
+    align-items: center;
+    justify-content: space-around;
+}
+.search input{
+    height: 30px;
+    width: 550px;
+    position:relative;
+    right: 140px;
+}
+.options select{
+    background-color: rgb(51, 53, 69);
+    color:gainsboro;
+    border: none;
+    transition: .5s;
+}
+.options select:hover{
+ color: white;
+
+}
+.options button{
+    background-color: crimson;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;   
+}
+.navlinks{
+    background-color: rgb(23, 24, 32);
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.navlinks a{
+    color:gainsboro;
+    text-decoration: none;
+    font-family: sans-serif;
+    margin: 0px 5px;
+    font-size: 12px;
+}
+sup{
+    color: crimson;
+    font-weight: bolt;
+}
+#icc{
+    height: 17px;
+    width: 200px;
+}
+.navlinks :hover{
+    color: white;
+    transition: .5s;
+}
+.content1{
+    background-color: rgb(213, 202, 202);
+}
+.content1 img{
+    height: 300px;
+    width: 1100px;
+    margin: 5px;
+    border-radius: 5px;
+   
+}
+.content2{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 70px 0px 70px;
+
+}
+.content2 a{
+    text-decoration: none;
+    color: crimson;
+}
+.content3{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sections img{
+    width: 220px;
+    height: 370px;
+    border-radius: 10px;
+    position: relative;
+    top: 80px;
+    transition: 2s;
+}
+.sections img:hover{
+    top: 0px;
+}
+.sections{
+    width: 220px;
+}
+#icone{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    z-index: 1;
+    right: 100px;
+    top: 10px;
+
+}
+.search
+input::placeholder{
+    transform: 
+    translate(30px);
+}
+
